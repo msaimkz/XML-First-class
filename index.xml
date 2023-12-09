@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <product>
+  <id>1</id>
+  <name>mouse</name>
+  <price>300$</price>
+  <description>This is very best product</description>
+  </product>
+  <product>
+    <id>2</id>
+    <name>keyboard</name>
+    <price>500$</price>
+    <description>This is very best product</description>
+    </product>
+    <product>
+      <id>3</id>
+      <name>printer</name>
+      <price>500$</price>
+      <description>This is very best product</description>
+      </product>
+      <product>
+        <id>4</id>
+        <name>pc</name>
+        <price>1000$</price>
+        <description>This is very best product</description>
+        </product>
+  </Products>
