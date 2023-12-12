@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Employees [
+  <!ELEMENT Employees (employee+)>
+  <!ELEMENT employee (name,salery,department)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT salery (#PCDATA)>
+  <!ELEMENT department (#PCDATA)>
+]>
+<Employees>
+  <employee>
+    <name>Jhon</name>
+    <salery>15000</salery>
+    <department>Enterprises</department>
+  </employee>
+  <employee>
+    <name>david</name>
+    <salery>25000</salery>
+    <department>Enterprises</department>
+  </employee>
+  <employee>
+    <name>William</name>
+    <salery>45000</salery>
+    <department>Enterprises</department>
+  </employee>
+  <employee>
+    <name>Anderson</name>
+    <salery>26000</salery>
+    <department>Enterprises</department>
+  </employee>
+  <employee>
+    <name>Smith</name>
+    <salery>33000</salery>
+    <department>Enterprises</department>
+  </employee>
+  <employee>
+    <name>daniel</name>
+    <salery>99000</salery>
+    <department>Enterprises</department>
+  </employee>
+  <employee>
+    <name>Alex</name>
+    <salery>13000</salery>
+    <department>Enterprises</department>
+  </employee>
+  <employee>
+    <name>Warner</name>
+    <salery>78000</salery>
+    <department>Enterprises</department>
+  </employee>
+  <employee>
+    <name>Mash</name>
+    <salery>96000</salery>
+    <department>Enterprises</department>
+  </employee>
+  <employee>
+    <name>Santer</name>
+    <salery>38000</salery>
+    <department>Enterprises</department>
+  </employee>
+</Employees>
