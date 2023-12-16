@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+  <student>
+    <name>
+      Daniel
+    </name>
+    <course>
+      Cpism
+    </course>
+    <age>
+      15
+    </age>
+  </student>
+  <student>
+    <name>
+      Talha
+    </name>
+    <course>
+      Cpism
+    </course>
+    <age>
+      16
+    </age>
+  </student>
+</Students>

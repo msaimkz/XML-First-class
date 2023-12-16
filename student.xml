@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+  <Eigth:student xmlns:Eigth ="https:school.com/Eigth">
+    <Eigth:name>
+      Sufiyan
+</Eigth:name>
+    <Eigth:fee>
+      3000
+    </Eigth:fee>
+    <Eigth:Group>
+      Science
+    </Eigth:Group>
+  </Eigth:student>
+  <ninth:student xmlns:ninth ="https:school.com/ninth">
+    <ninth:name>
+      Hammad
+    </ninth:name>
+    <ninth:fee>
+      3000
+    </ninth:fee>
+    <ninth:Group>
+      Arts
+    </ninth:Group>
+  </ninth:student>
+  <Matric:student xmlns:Matric ="https:school.com/Matric">
+    <Matric:name>
+      Rehan
+    </Matric:name>
+    <Matric:fee>
+      3000
+    </Matric:fee>
+    <Matric:Group>
+      Commerce
+    </Matric:Group>
+  </Matric:student>
+</Students>
