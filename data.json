@@ -1,0 +1,11 @@
+{
+  "name":"zaid",
+  "id":1,
+  "Status":true,
+  "obj":{
+    "Name":"hammad",
+    "id":2,
+    "class":10
+  },
+  "worker":["faizan","noman","rizwan"]
+}
