@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p></p>
+
+
+  <script>
+    //Json to Js object
+
+    let StudentData = `{
+      "Students":[
+        {
+          "id":1,
+          "name":"Hammad",
+          "semester":["CPISM","DISM","HDSE 1","HDSE 2","ADSE 1","ADSE 2"],
+          "marks":{
+            "CPISM":67,
+            "DISM":78,
+            "HDSE 1":56,
+            "HDSE 2":64
+          },
+          "Pass":true
+    
+        },
+        {
+          "id":2,
+          "name":"Akmal",
+          "semester":["CPISM","DISM","HDSE 1","HDSE 2","ADSE 1","ADSE 2"],
+          "marks":{
+            "CPISM":62,
+            "DISM":88,
+            "HDSE 1":56,
+            "HDSE 2":74
+          },
+          "Pass":true
+    
+        },
+        {
+          "id":1,
+          "name":"Abdul Hadi",
+          "semester":["CPISM","DISM","HDSE 1","HDSE 2","ADSE 1","ADSE 2"],
+          "marks":{
+            "CPISM":27,
+            "DISM":38,
+            "HDSE 1":26,
+            "HDSE 2":12
+          },
+          "Pass":false
+    
+        }
+      ]
+    }`
+    //Json to Js object
+
+    //Js to Json object
+
+    let Worker=[
+      {
+name:"Talha",
+salery:1200,
+field:"engineer"
+
+    },
+    {
+      name:"khizer",
+      salery:1600,
+      field:"engineer"
+      
+          },
+          {
+            name:"Tabish",
+            salery:1200,
+            field:"engineer"
+            
+                }
+    ]
+
+    //Js to Json object
+
+    //Json to js object
+
+    console.log(JSON.parse(StudentData).Students[1].name)
+
+    //Json to js object
+
+    //Js to Json object
+
+    console.log(JSON.stringify(Worker))
+
+    //Js to Json object
+
+    document.querySelector("p").innerHTML = StudentData
+  </script>
+</body>
+</html>

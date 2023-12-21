@@ -1,11 +1,43 @@
 {
-  "name":"zaid",
-  "id":1,
-  "Status":true,
-  "obj":{
-    "Name":"hammad",
-    "id":2,
-    "class":10
-  },
-  "worker":["faizan","noman","rizwan"]
+  "Students":[
+    {
+      "id":1,
+      "name":"Hammad",
+      "semester":["CPISM","DISM","HDSE 1","HDSE 2","ADSE 1","ADSE 2"],
+      "marks":{
+        "CPISM":67,
+        "DISM":78,
+        "HDSE 1":56,
+        "HDSE 2":64
+      },
+      "Pass":true
+
+    },
+    {
+      "id":2,
+      "name":"Akmal",
+      "semester":["CPISM","DISM","HDSE 1","HDSE 2","ADSE 1","ADSE 2"],
+      "marks":{
+        "CPISM":62,
+        "DISM":88,
+        "HDSE 1":56,
+        "HDSE 2":74
+      },
+      "Pass":true
+
+    },
+    {
+      "id":1,
+      "name":"Abdul Hadi",
+      "semester":["CPISM","DISM","HDSE 1","HDSE 2","ADSE 1","ADSE 2"],
+      "marks":{
+        "CPISM":27,
+        "DISM":38,
+        "HDSE 1":26,
+        "HDSE 2":12
+      },
+      "Pass":false
+
+    }
+  ]
 }
